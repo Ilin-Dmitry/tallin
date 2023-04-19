@@ -1,0 +1,12 @@
+$base-color: crimson;
+
+body {
+    background-color: $base-color;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    background-image: url(../../assets/header-bg.jpg);
+    background-size: cover;
+}
