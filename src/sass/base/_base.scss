@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+$heading-color: #232323;
+$text-color: rgba(35, 35, 35, 0.7);
+$button-color: #659DBD;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.15;
+    color: $heading-color;
+}
+
+.text {
+    font-size: 1.8rem;
+    color: $text-color;
+    font-weight: 400;
+}

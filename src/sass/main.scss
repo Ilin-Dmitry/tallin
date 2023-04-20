@@ -1,12 +1,7 @@
-$base-color: crimson;
-
-body {
-    background-color: $base-color;
-}
-
-.image {
-    width: 400px;
-    height: 400px;
-    background-image: url(../../assets/header-bg.jpg);
-    background-size: cover;
-}
+@import "./base/base";
+@import "./blocks/button/button";
+@import "./blocks/page/page";
+@import "./blocks/banner/banner";
+@import "./blocks/description/description";
+@import "./blocks/description/__title/description__title";
+@import "./blocks/description/__text/description__text";
