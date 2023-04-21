@@ -1,0 +1,11 @@
+.tour {
+    width: 37.3rem;
+    height: 56.6rem;
+    padding: 3rem 3rem 4rem;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:not(:last-child) {
+        margin-right: 3.3rem;
+    }
+}
