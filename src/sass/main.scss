@@ -1,7 +1,14 @@
 @import "./base/base";
 @import "./blocks/button/button";
+@import "./blocks/arrows/arrows.scss";
+@import "./blocks/arrows/__arrow/arrows__arrow.scss";
+@import "./blocks/arrows/__arrow/_dir_left/arrows__arrow_dir_left";
+@import "./blocks/arrows/__arrow/_inactive/arrows__arrow_inactive";
 @import "./blocks/page/page";
 @import "./blocks/banner/banner";
 @import "./blocks/description/description";
 @import "./blocks/description/__title/description__title";
 @import "./blocks/description/__text/description__text";
+@import "./blocks/gallery/__images/gallery__images";
+@import "./blocks/gallery/__photo/gallery__photo";
+@import "./blocks/gallery/__arrows/gallery__arrows";

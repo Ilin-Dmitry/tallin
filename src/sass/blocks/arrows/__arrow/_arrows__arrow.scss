@@ -1,0 +1,19 @@
+.arrows__arrow {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: 1px solid $color-contrast-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke: $color-contrast-2;
+
+    &:not(:last-child) {
+        margin-right: 3.2rem;
+    }
+    
+    & svg {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
