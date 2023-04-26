@@ -1,16 +1,15 @@
 .button {
-    background-color: $color-contrast-1;
-    padding-top: 2.1rem;
-    padding-bottom: 2.1rem;
-    width: 33.5rem;
-    color: #fff;
+    box-sizing: border-box;
+    padding: 2.1rem 6.4rem;
+    color: $text-color;
+    outline: 1px solid $color-inactive;
     border: none;
+    background-color: #fff;
     font-size: 1.6rem;
     cursor: pointer;
     transition: all .3s;
 
     &:hover {
-        width: 35.6rem;
-        background-color: $color-contrast-1-dark;
+        outline-color: $color-contrast-1;
     }
 }

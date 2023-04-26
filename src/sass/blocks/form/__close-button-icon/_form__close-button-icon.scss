@@ -1,0 +1,14 @@
+.form__close-button-icon {
+    stroke: $color-inactive;
+    width: 1.4rem;
+    height: 1.4rem;
+    transition: all .2s;
+
+    .form__close-button:hover &{
+        stroke: $color-contrast-1;
+    }
+
+    .form__close-button:active &{
+        stroke: #fff;
+    }
+}

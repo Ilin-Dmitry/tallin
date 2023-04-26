@@ -1,0 +1,12 @@
+.form {
+    position: relative;
+    max-width: 118.4rem;
+    background-color: #fff;
+    padding: 6.4rem 4rem;
+    max-height: 90vh;
+    overflow-y: scroll;
+
+    & *:focus {
+        outline: 1px solid $color-contrast-1;
+    }
+}

@@ -1,0 +1,25 @@
+.form__select-button-arrow {
+    position: absolute;
+    top: 50%;
+    right: 1.6rem;
+    transform: translateY(-50%);
+    display: block;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 100%;
+    border: 1px solid $color-inactive;
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: .9rem;
+        height: .9rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -75%) rotate(-45deg);
+        border: 1px solid $color-inactive;
+        border-top: none;
+        border-right: none;
+    }
+}

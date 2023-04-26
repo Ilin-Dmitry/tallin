@@ -1,0 +1,18 @@
+.form__select-button {
+    position: relative;
+    width: 100%;
+    padding: 2.1rem 2.4rem;
+    border: 1px solid $color-inactive;
+    border-radius: 0;
+    background-color: transparent;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(35, 35, 35, 0.4);
+    font-weight: 400;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+        border: 1px solid $color-contrast-1;
+    }
+}

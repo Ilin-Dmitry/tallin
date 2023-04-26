@@ -1,0 +1,11 @@
+.form__button {
+    &:not(:last-of-type) {
+        margin-right: 3.2rem;
+    }
+}
+
+.form__input_type_radio:checked+.form__button {
+    background-color: $color-contrast-1;
+    color: #fff;
+    outline: none;
+}

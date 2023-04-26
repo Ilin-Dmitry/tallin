@@ -1,0 +1,9 @@
+.button_active {
+    background-color: $color-contrast-1;
+    color: #fff;
+    outline: none;
+
+    &:hover {
+        background-color: $color-contrast-1-dark;
+    }
+}

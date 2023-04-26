@@ -1,0 +1,8 @@
+.form__contacts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(33.7rem, 1fr));
+    grid-template-rows: 1fr 1fr;
+    margin: 6.4rem 0;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}

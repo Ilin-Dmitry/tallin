@@ -1,5 +1,6 @@
 @import "./base/base";
 @import "./blocks/button/button";
+@import "./blocks/button/_active/_button_active";
 @import "./blocks/arrows/arrows.scss";
 @import "./blocks/arrows/__arrow/arrows__arrow.scss";
 @import "./blocks/arrows/__arrow/_dir_left/arrows__arrow_dir_left";
@@ -18,4 +19,37 @@
 @import "./blocks/tour/__image/tour__image";
 @import "./blocks/tour/__title/tour__title";
 @import "./blocks/tour/__description/tour__description";
+@import "./blocks/popup/popup";
+@import "./blocks/popup/_active/popup_active";
+@import "./blocks/form/form";
+@import "./blocks/form/__close-button/form__close-button";
+@import "./blocks/form/__close-button-icon/form__close-button-icon";
+@import "./blocks/form/__title/form__title";
+@import "./blocks/form/__contacts/form__contacts";
+@import "./blocks/form/__label/form__label";
+@import "./blocks/form/__label/_type/form__label_type_radio";
+@import "./blocks/form/__input/form__input";
+@import "./blocks/form/__input/_type/form__input_type_radio";
+@import "./blocks/form/__select-group/form__select-group";
+@import "./blocks/form/__select-button/form__select-button";
+@import "./blocks/form/__select-button-arrow/form__select-button-arrow";
+@import "./blocks/form/__dropdown/form__dropdown";
+@import "./blocks/form/__dropdown/_inactive/form__dropdown_inactive";
+@import "./blocks/form/__button-types/form__button-types";
+@import "./blocks/form/__button/form__button";
+@import "./blocks/form/__textarea-container/form__textarea-container";
+@import "./blocks/form/__input/_type/form__input_type_text";
+@import "./blocks/form/__checkbox-container/form__checkbox-container";
+@import "./blocks/form/__input/_type/form__input_type_check";
+@import "./blocks/form/__label/_type/form__label_type_check";
+@import "./blocks/form/__submit-box/form__submit-box";
+
+
+
+
+
+
+
+
+
 
