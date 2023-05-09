@@ -3,4 +3,18 @@
     align-items: baseline;
     justify-content: space-between;
     padding: 6.4rem $padding-side;
+    gap: 6rem;
+
+    @include respond(tab-land) {
+        padding: 6rem 8rem;
+    }
+
+    @include respond(tab-land) {
+        flex-direction: column;
+    }
+
+    @include respond(mob-port) {
+        padding: 4rem 5rem;
+        gap: 3rem;
+    }
 }

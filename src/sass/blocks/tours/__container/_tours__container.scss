@@ -1,4 +1,16 @@
 .tours__container {
     margin-top: 6.4rem;
     display: flex;
+
+    @include respond(mob-land) {
+        flex-direction: column;
+    }
+
+    @include respond(mob-land) {
+        gap: 3rem;
+    }
+
+    @include respond(mob-land) {
+        margin-top: 3rem;
+    }
 }

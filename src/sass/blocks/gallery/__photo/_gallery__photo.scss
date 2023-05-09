@@ -7,4 +7,9 @@
     object-fit: cover;
     transition: all .5s;
 
+    @include respond(tab-port) {
+        width: 25rem;
+        height: 26.84rem;
+        padding-right: 2.5rem;
+    }
 }

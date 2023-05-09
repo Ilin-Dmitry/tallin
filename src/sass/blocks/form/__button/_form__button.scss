@@ -1,6 +1,14 @@
 .form__button {
     &:not(:last-of-type) {
         margin-right: 3.2rem;
+
+        @include respond(mob-land) {
+            margin: 0;
+        }
+    }
+
+    @include respond(mob-land) {
+        width: 47%;
     }
 }
 

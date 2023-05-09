@@ -5,4 +5,8 @@
     margin: 6.4rem 0;
     column-gap: 3.2rem;
     row-gap: 2.4rem;
+
+    @include respond(mob-land) {
+        grid-template-columns: 1fr;
+    }
 }

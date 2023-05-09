@@ -9,6 +9,28 @@ $color-inactive: #EAEAEA;
 
 $padding-side: 12.8rem;
 
+@mixin respond ($device) {
+    // 1400px
+    @if $device == desk-small {
+        @media only screen and (max-width: 87.5em) {@content}
+    };
+    // 1000px
+    @if $device == tab-land {
+        @media only screen and (max-width: 62.5em) {@content}
+    };
+    // 750px
+    @if $device == tab-port {
+        @media only screen and (max-width: 46.875em) {@content}
+    };
+    // 600px
+    @if $device == mob-land {
+        @media only screen and (max-width: 37.5em) {@content}
+    };
+    // 500px
+    @if $device == mob-port {
+        @media only screen and (max-width: 31.25em) {@content}
+    };
+}
 
 *,
 *::after,
@@ -21,6 +43,18 @@ $padding-side: 12.8rem;
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+
+    @include respond(desk-small) {
+        font-size: 56.25%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 43.75%;
+    }
 }
 
 .title {

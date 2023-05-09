@@ -1,6 +1,13 @@
 .gallery__images {
     display: flex;
-    // gap: 3.2rem;
     padding: 0 $padding-side;
     overflow: hidden;
+
+    @include respond(tab-land) {
+        padding: 0 8rem;
+    }
+
+    @include respond(mob-land) {
+        padding: 0 5rem;
+    }
 }

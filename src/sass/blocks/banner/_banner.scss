@@ -4,4 +4,8 @@
     background-image: url('../../assets/header-bg.jpg');
     background-position: center;
     background-size: cover;
+
+    @include respond(tab-port) {
+        height: 60vh;
+    }
 }

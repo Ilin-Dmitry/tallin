@@ -1,4 +1,9 @@
 .form__button-types {
     display: flex;
     justify-content: space-between;
+
+    @include respond(mob-land) {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
 }

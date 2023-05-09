@@ -5,4 +5,15 @@
     color: $heading-color;
     max-width: 31.3rem;
     margin-top: 2.4rem;
+
+    @include respond(desk-small) {
+        font-size: 2.5rem;
+    }
+
+    @include respond(mob-land) {
+        margin-top: 0;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        max-width: 25rem;
+    }
 }

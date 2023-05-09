@@ -8,4 +8,29 @@
     &:not(:last-child) {
         margin-right: 3.3rem;
     }
+
+    @include respond(desk-small) {
+        padding: 2rem 1.5rem 3rem;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    @include respond(tab-land) {
+        padding: 0;
+
+        &:not(:last-child) {
+            margin-right: 2.5rem;
+        }
+    }
+
+    @include respond(mob-land) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        grid-template-rows: min-content minmax(min-content, 1fr);
+        gap: 2rem;
+        height: 100%;
+    }
 }
