@@ -4,4 +4,4 @@
 
 Проект собран на webpack с использованием технологий js и sass. Вся верстка выполнена в соответствии с БЭМ и полностью адаптирована под мобильные девайсы.
 
-**[Ссылка на сайт](https://ilin-dmitry.github.io/how-to-learn/index.html)**
+**[Ссылка на сайт](https://ilin-dmitry.github.io/tallin/)**
