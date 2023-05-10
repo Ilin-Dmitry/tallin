@@ -14,3 +14,8 @@
         background-color: $color-contrast-1-dark;
     }
 }
+
+.form__dropdown_inactive .form__label_type_radio {
+    display: none;
+    color: red;
+}
