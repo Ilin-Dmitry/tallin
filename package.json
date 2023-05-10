@@ -1,6 +1,9 @@
 {
   "name": "tallin",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/ilin-dmitry/tallin.git"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +23,7 @@
     "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "webpack-dev-server": "^4.13.3"
   }
 }
