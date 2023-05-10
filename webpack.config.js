@@ -7,7 +7,7 @@ module.exports = {
     filename: path.resolve(__dirname, 'src/index.js')
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: '[name][contenthash].js',
     assetModuleFilename: 'assets/[name][ext]',
     clean: true
@@ -22,7 +22,7 @@ module.exports = {
     compress: true,
     hot: true,
     static: {
-      directory: path.join(__dirname, 'dist')
+      directory: path.join(__dirname, 'docs')
     }
   },
   module: {
